@@ -1,8 +1,10 @@
-function skillMember() {
+function skillsMember() {
     var member = document.getElementById("member");
-    var memberValue = member.options[member.selectedIndex].value;
-    var memberText = member.options[member.selectedIndex].text;
-    var memberArray = [memberValue, memberText];
-    return memberArray;
-    
+    var skills = document.getElementById("skills");
+    var memberBtn = document.getElementById("memberBtn");
+    var skillsBtn = document.getElementById("skillsBtn");
+    member.style.display = "block";
+    skills.style.display = "none";
+    memberBtn.style.backgroundColor = "#f2f2f2";
+    skillsBtn.style.backgroundColor = "#e6e6e6";
 }
