@@ -4,4 +4,5 @@ function skillMember() {
     var memberText = member.options[member.selectedIndex].text;
     var memberArray = [memberValue, memberText];
     return memberArray;
+    
 }
